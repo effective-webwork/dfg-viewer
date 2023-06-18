@@ -22,6 +22,12 @@ plugin.tx_dfgviewer_uri {
     }
 }
 
+plugin.tx_dlf_annotation < tt_content.list.20.dlf_annotation
+plugin.tx_dlf_annotation {
+    settings {
+    }
+}
+
 plugin.tx_dfgviewer_calendar < tt_content.list.20.dfgviewer_calendar
 plugin.tx_dfgviewer_calendar {
     settings {
