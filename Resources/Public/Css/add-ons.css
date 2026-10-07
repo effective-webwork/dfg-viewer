@@ -83,6 +83,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #008877;
 }
 
+.control-bar .metadata-wrapper, .control-bar .toc-wrapper {
+    background-color: #008877;
+}
+
 @media screen and (min-width: 1024px) {
 
     .main-wrapper {
