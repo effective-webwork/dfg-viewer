@@ -19,11 +19,23 @@
     <div class="control-bar">
 
       <div class="header-bar">
-        <div class="tudigit-viewer-logo">
-            <f:link.page pageUid="{rootPageId}" class="" title="Startseite">
-                <f:image src="EXT:dfgviewer/Resources/Public/Images/logo-tudigit.png" alt="Logo TU digit" />
-            </f:link.page>
-        </div>
+        <ul class="tudigit-viewer-logo">
+            <li class="portal-logo">
+                <f:link.page pageUid="{rootPageId}" class="" title="Startseite">
+                    <f:image src="EXT:dfgviewer/Resources/Public/Images/logo-tudigit.png" alt="Logo TU digit" />
+                </f:link.page>
+            </li>
+            <li class="signet-logo">
+                <f:link.external uri="https://www.ulb.tu-darmstadt.de" pageUid="{rootPageId}" class="" title="Website Universität- und Landesbibliothek Darmstadt">
+                    <f:image src="EXT:dfgviewer/Resources/Public/Images/ulb-logo.svg" alt="Logo Universität- und Landesbibliothek Darmstadt" />
+                </f:link.external>
+            </li>
+            <li class="signet-logo">
+                <f:link.external uri="https://www.tu-darmstadt.de" target="_blank" class="" title="Website Technische Universität Darmstadt">
+                    <f:image src="EXT:dfgviewer/Resources/Public/Images/tud-logo-signet.svg" alt="Logo Technische Universität Darmstadt" />
+                </f:link.external>
+            </li>
+        </ul>
         <nav>
           <f:cObject typoscriptObjectPath="lib.menu.language" />
           <f:cObject typoscriptObjectPath="lib.menu.viewernav" />
