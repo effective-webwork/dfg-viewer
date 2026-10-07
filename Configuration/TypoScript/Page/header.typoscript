@@ -30,6 +30,7 @@ page {
 page {
   includeCSS {
     style = EXT:dfgviewer/Resources/Public/Css/allStyles.css
+    addons = EXT:dfgviewer/Resources/Public/Css/add-ons.css
   }
   includeJSFooterlibs {
     dfgviewer = EXT:dfgviewer/Resources/Public/JavaScript/allScripts.js
