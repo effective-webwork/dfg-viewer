@@ -89,7 +89,7 @@ $(document).ready(function() {
     }
 
     // extract title information from the meta data and add it to the top of the sidebar
-    ($('.tx-dlf-metadata dl.tx-dlf-metadata-titledata dd.tx-dlf-title')[0]) && $('.tx-dlf-metadata').prepend('<div class="metadata-title"><h2>' + $('.tx-dlf-metadata dl.tx-dlf-metadata-titledata').first().find('dd.tx-dlf-title').text() + '</h2></div>');
+    ($('.tx-dlf-metadata dl.tx-dlf-metadata-titledata dd.tx-dlf-title')[0]) && $('.toc-wrapper').prepend('<div class="metadata-title"><h2>' + $('.tx-dlf-metadata dl.tx-dlf-metadata-titledata').first().find('dd.tx-dlf-title').text() + '</h2></div>');
 
     // add a toggle function for sub meta data "(+ n more)"
     $('dl.tx-dlf-metadata-titledata dd > dl').each(function () {
