@@ -76,7 +76,7 @@ class UriController extends AbstractController
         // Get persistent identifier of book.
         $uriBook = GeneralUtility::trimExplode(' ', $doc->physicalStructureInfo[$doc->physicalStructure[0]]['contentIds'], TRUE);
 
-        if (empty($uriBook)) {
+        if (empty($uriBook) && !empty($doc->getToplevelId())) {
             $uriBook = $doc->getLogicalStructure($doc->getToplevelId());
             $uriBook = GeneralUtility::trimExplode(' ', $uriBook['contentIds'], TRUE);
         }
