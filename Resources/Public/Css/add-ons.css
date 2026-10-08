@@ -152,4 +152,8 @@ h1, h2, h3, h4, h5, h6 {
     .view-functions ul li.tx-dlf-navigation-pages {
         display: none;
     }
+
+    .document-view .document-functions .provider .mobile-controls form {
+        display: none;
+    }
 }
