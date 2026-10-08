@@ -132,6 +132,8 @@ h1, h2, h3, h4, h5, h6 {
 
     .control-bar .control-bar-content {
         inset: 70px 0 0 0;
+        margin-bottom: 0;
+        padding-bottom: 40px;
     }
 
     .control-bar .metadata-wrapper {
@@ -146,6 +148,10 @@ h1, h2, h3, h4, h5, h6 {
     .view-functions ul li.tx-dlf-navigation-pages form select {
         color: #008877;
     }
+}
+
+.control-bar .footer-bar {
+    display: none;
 }
 
 @media screen and (max-width: 1023px) {
