@@ -29,6 +29,8 @@
 
 !*/
 
+document.documentElement.classList.add(('ontouchstart' in window) ? 'touchevents' : 'no-touchevents');
+
 $(document).ready(function() {
 
     // check mobile device to specify click events
