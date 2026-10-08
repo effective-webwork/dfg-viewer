@@ -342,3 +342,14 @@ page.10.variables {
   isNewspaper.value = newspaper_issue
 }
 [END]
+
+plugin.tx_dlf._LOCAL_LANG {
+    default {
+        listView.pagination.prevPage = Previous Page
+        listView.pagination.nextPage = Next Page
+    }
+    de {
+        listView.pagination.prevPage = Vorherige Seite
+        listView.pagination.nextPage = Nächste Seite
+    }
+}
