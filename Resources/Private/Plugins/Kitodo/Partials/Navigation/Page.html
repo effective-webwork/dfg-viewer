@@ -1,0 +1,29 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:kitodo="http://typo3.org/ns/Kitodo/Dlf/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+
+<f:comment>
+    Copyright notice
+
+    (c) Saxon State and University Library Dresden <typo3@slub-dresden.de>
+    All rights reserved
+
+    This script is part of the TYPO3 project.
+
+    @license GNU General Public License version 3 or later.
+    For the full copyright and license information, please read the
+    LICENSE.txt file that was distributed with this source code.
+</f:comment>
+
+<span class="{class}">
+    <f:if condition="{condition}">
+        <f:then>
+            <kitodo:link viewData="{viewData}" additionalParams="{'page':'{navigationPage}'}" excludedParams="{0: 'measure'}"><f:translate key="{value}"/></kitodo:link>
+        </f:then>
+        <f:else>
+            <span title="{f:translate(key: '{value}')}"><f:translate key="{value}"/></span>
+        </f:else>
+    </f:if>
+</span>
+
+</html>
